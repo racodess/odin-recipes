@@ -1,0 +1,22 @@
+* {
+	text-align: center;
+	font-family: serif;
+	font-size: 18px;
+	background-color: #f5f4c9;
+}
+
+h1,
+h2 {
+	font-size: 72px;
+	font-family: "Brush Script MT", "Times New Roman", serif;
+	font-weight: bold;
+	color: #f2b879;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+ol, li, p {
+	text-align: start;
+}
