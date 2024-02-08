@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-	width: 800px;
+	width: 900px;
 	height: 300px;
 	margin: 100px auto;
 	background-color: #f2d5b9;
@@ -16,15 +16,12 @@ body {
 	border-color: #e8b0a7;
 }
 
-.title {
-	text-align: center;
-}
-
 h1,
 h2 {
 	font-size: 72px;
 	font-weight: bold;
-	color: #e29596;
+	color: #ff8485;
+	text-align: center;
 }
 
 h2 {
@@ -56,4 +53,24 @@ button:hover {
 a {
 	text-decoration: none;
 	color: #685858;
+}
+
+.food {
+	height: auto;
+}
+
+.desc-container {
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+.description {
+	display: inline-block;
+	width: 300px;
+	height: auto;
+	text-align: justify;
+	vertical-align: top;
+	margin: 81.4px 0px 81.4px 50px;
+	font-style: italic;
 }
