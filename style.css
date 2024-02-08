@@ -10,7 +10,7 @@ body {
 .container {
 	width: 900px;
 	height: 300px;
-	margin: 100px auto;
+	margin: 10px auto 30px auto;
 	background-color: #f2d5b9;
 	border-style: outset;
 	border-color: #e8b0a7;
@@ -58,6 +58,10 @@ body {
 .food {
 	 height: auto;
  }
+
+.back {
+	margin-left: 25.6px;
+}
 
 button {
 	display: inline-block;
