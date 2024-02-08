@@ -15,25 +15,49 @@ body {
 	border-style: outset;
 	border-color: #e8b0a7;
 }
-
-h1,
-h2 {
-	font-size: 72px;
-	font-weight: bold;
-	color: #ff8485;
-	text-align: center;
-}
-
-h2 {
-	font-size: 36px;
-}
-
 .button-container {
 	width: 800px;
 	height: 100px;
 	margin: 0px auto;
 	text-align: center;
 }
+
+.desc-container {
+	width: auto;
+	height: auto;
+	text-align: center;
+	color: #464444;
+}
+
+.inst-container {
+	width: 820px;
+	margin: 0px auto;
+	color: #595757;
+}
+.description {
+	display: inline-block;
+	width: 300px;
+	height: auto;
+	text-align: justify;
+	vertical-align: top;
+	margin: 81.4px 0px 81.4px 50px;
+	font-style: italic;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+}
+
+.ingredients,
+.steps {
+	display: inline-block;
+	width: 340px;
+	height: auto;
+	margin: 20px 30px;
+	vertical-align: top;
+}
+
+.food {
+	 height: auto;
+ }
 
 button {
 	display: inline-block;
@@ -50,27 +74,28 @@ button:hover {
 	background-color: rgba(226, 149, 150, 0.81);
 }
 
-a {
-	text-decoration: none;
-	color: #685858;
-}
-
-.food {
-	height: auto;
-}
-
-.desc-container {
-	width: auto;
-	height: auto;
+h1,
+h2 {
+	font-size: 72px;
+	font-weight: bold;
+	color: #ff8485;
 	text-align: center;
 }
 
-.description {
-	display: inline-block;
-	width: 300px;
-	height: auto;
-	text-align: justify;
-	vertical-align: top;
-	margin: 81.4px 0px 81.4px 50px;
-	font-style: italic;
+h2 {
+	font-size: 36px;
+}
+
+img {
+	border-style: outset;
+	border-color: #e29596;
+}
+
+li {
+	margin: 20px 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #685858;
 }
